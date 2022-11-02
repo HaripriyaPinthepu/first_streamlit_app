@@ -41,7 +41,7 @@ streamlit.text("the fruit_load_list contains")
 streamlit.dataframe(my_data_row)
 
 def insert_row_snowflake(new_fruit):
-  with my_cur.cursor() as my_cur:
+  with my_cux.cursor() as my_cur:
     my_cur.execute("insert into fruit_load_list values ('from streamlit')");
     return "thanks for adding new"+new_Fruit
   
