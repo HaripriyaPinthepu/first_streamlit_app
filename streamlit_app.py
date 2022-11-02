@@ -1,6 +1,6 @@
 import streamlit
 import pandas
-import urllib.error import URLError
+from urllib.error import URLError
 streamlit.title('My Parents new healthy dinner')
 streamlit.header('Breakfast Menu')
 streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
